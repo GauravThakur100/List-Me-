@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="priorities">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </array>
+    <color name="black">#FF000000</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_800">#1565C0</color>
+    <color name="pink_400">#EC407A</color>
+    <color name="pink_800">#AD1457</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add">Add</string>
+    <string name="app_name">ToDo-Notify</string>
+    <string name="channel_description">primary_channel</string>
+    <string name="channel_name">Primary</string>
+    <string name="complete">Complete</string>
+    <string name="default_web_client_id" translatable="false">13779946816-j1fhsr9jpd0fboin4mrd4f1mvp7ictc8.apps.googleusercontent.com</string>
+    <string name="details">Details</string>
+    <string name="firebase_database_url" translatable="false">https://testproject-81e1f-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">13779946816</string>
+    <string name="google_api_key" translatable="false">AIzaSyAXc-UOWWuPyRn-JUSkkieWuw8wgBqxOc8</string>
+    <string name="google_app_id" translatable="false">1:13779946816:android:a1137a64b6eb2a90733ea5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAXc-UOWWuPyRn-JUSkkieWuw8wgBqxOc8</string>
+    <string name="google_storage_bucket" translatable="false">testproject-81e1f.appspot.com</string>
+    <string name="menu_delete">Delete</string>
+    <string name="notify">Notify</string>
+    <string name="priority">Priority: </string>
+    <string name="project_id" translatable="false">testproject-81e1f</string>
+    <string name="reminder_text">Check ToDo App for the things that you need to do today.  Make it
+    a productive day!</string>
+    <string name="reminder_title">What will you accomplish today?</string>
+    <string name="sign_out">Sign out</string>
+    <string name="title">Enter a title</string>
+    <string name="update">Update</string>
+    <style name="Theme.ToDoNotify" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_800</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pink_400</item>
+        <item name="colorSecondaryVariant">@color/pink_800</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
